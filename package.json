@@ -26,7 +26,8 @@
     "@tweenjs/tween.js": "^17.2.0",
     "install": "^0.12.1",
     "npm": "^6.4.1",
-    "three": "^0.98.0"
+    "three": "^0.98.0",
+    "three.regular.helvetiker": "^1.0.0"
   },
   "devDependencies": {
     "all-contributors-cli": "^5.3.0",
@@ -44,9 +45,11 @@
     "mocha": "^4.1.0",
     "puppeteer": "^1.11.0",
     "rollup": "^0.66.0",
-    "rollup-plugin-terser": "^4.0.1",
-    "uglify-es": "^3.3.10",
-    "terser": "^3.14.1"
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-terser": "^4.0.3",
+    "terser": "^3.14.1",
+    "uglify-es": "^3.3.10"
   },
   "repository": {
     "type": "git",
@@ -56,7 +59,18 @@
   "author": "tensorspace-team",
   "license": "Apache-2.0",
   "keywords": [
-    "tensor", "tensorflow", "space", "three", "tween", "visual", "machine", "learning", "graphics", "visual", "diagram", "interface"
+    "tensor",
+    "tensorflow",
+    "space",
+    "three",
+    "tween",
+    "visual",
+    "machine",
+    "learning",
+    "graphics",
+    "visual",
+    "diagram",
+    "interface"
   ],
   "contributors": [
     {
